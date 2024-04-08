@@ -1,12 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-       int i = 1000;
-       while (i >=0)
+       int sum = 0;
+       int count = 1;
+       while (count<=100)
        {
-           if(i %2 ==0) {
-               System.out.println(i);
-           }
-           i--;
+           sum+= count;
+           count++;
        }
+       int result = sum / count;
+        System.out.println("srednee arifmet chisel = " + result);
     }
 }
